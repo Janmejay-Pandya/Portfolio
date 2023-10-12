@@ -1,0 +1,195 @@
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(1, 1, 51);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(4, 4, 36);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px;
+            margin-top: 100px;
+        }
+
+        .firstsection>div {
+            width: 40%;
+            font-size: 2.5rem;
+
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: rgb(150, 150, 233);
+        }
+
+        .secondSection {
+            max-width: 84.9vw;
+            margin: auto;
+        }
+        main hr{
+            border: 0;
+            background-color: rgb(41, 88, 198);
+            height: 3px;
+            margin: 40px 80px;
+        }
+        .pp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 34px;
+            margin-bottom: 15px;
+        }
+        .skills{
+            border: 11px double rgb(41, 88, 198);
+            max-width: 740px;
+            margin: 42px auto;
+        }
+        h4{
+            margin-top: 50px;
+            font-size: 2.5rem;
+            color: rgb(41, 88, 198);
+            text-decoration: underline;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .parent{
+            display: flex;
+            flex-direction: row;
+            padding: 35px;
+            margin: auto;
+        }
+        .html{
+            margin-top: -24px;
+            margin-left: -34px;
+            height: 250px;
+            width: 250px;
+            margin-left: 0px;
+        }
+        h5{
+            font-size: x-large;
+            color: rgb(41, 88, 198);
+            margin-left: 30px;
+        
+        }
+        p{
+            font-size: larger;
+            margin-left: 32px;
+        }
+        button{
+            margin-top: 15px;
+            font-size: 25px;
+            font-weight: bold;
+            padding: 9px;
+            border-radius: 20px;
+            background-color: darkmagenta;
+            color: white;
+        }
+        footer{
+            background-color:rgb(4, 4, 36);
+        }
+        .cc{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0%;
+        }
+        .prj{
+            font-size: xx-large;
+            margin: 35px 67px;
+            color: rgb(41, 88, 198);
+            text-decoration: underline;
+            display: flex;
+            justify-content: center;
+
+        }
+        .project_img{
+            width: 500px;
+            height: 500px;
+            margin:0 50px;
+            margin-bottom: 50px;
+            
+        }
+        .projects{
+            display: flex;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width:768px){
+            .parent{
+                display: flex;
+                flex-direction: column;
+            }
+            .gif1{
+                margin-left: 20px;
+            }
+            .html{
+                margin-left: 20px;
+            }
+            .projects{
+                display: flex;
+                flex-direction: column;
+            }
+            .rightsection{
+                position: relative;
+                top: 451px;
+                right: 364px;
+            }
+            .leftsection{
+                margin-bottom: 345px;
+            }
+        }
+        @media (max-width:652px){
+            .rightsection{
+                position: relative;
+                top: 664px;
+                right: 176px;
+            }
+
+        }

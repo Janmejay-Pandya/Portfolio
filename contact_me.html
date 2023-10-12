@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url(./planet-space-photography-horizon-clouds-wallpaper-preview.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            /*background-color: #ffffff;*/
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 92px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: white;
+            font-size: 1.35rem;
+            font-weight: bolder;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 40%;
+        }
+        .left{
+            color: #f4f4f4;
+            font-size: 1.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(4, 4, 36);
+
+        }
+
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width:2334px) {
+            body{
+                background-image: url(./planet-space-photography-horizon-clouds-wallpaper-preview.jpg);
+                background-repeat: repeat-y;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="left">Janmejay Pandya Portfolio</div>
+    </nav>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
